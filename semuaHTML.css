@@ -1,0 +1,189 @@
+header {
+  background-color: #343a40 !important;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: blue !important;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.produk-kategori {
+  display: flex;
+  justify-content: space-between;
+}
+
+.produk-item {
+  flex: 0 0 48%;
+  margin-bottom: 20px;
+}
+
+.produk-card {
+  width: 100%;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+
+.produk-gambar {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.produk-detail {
+  padding: 1rem;
+}
+
+.produk-nama {
+  font-size: 1.2rem;
+}
+
+.produk-deskripsi {
+  color: #6c757d;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #ffffff;
+}
+
+.footer-link:hover {
+  color: #cccccc;
+}
+
+@media (max-width: 767.98px) {
+  header {
+    padding: 10px 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
+
+  .produk-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .produk-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .containerin {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .containerin > * {
+    width: 100%;
+  }
+
+  .container-5 {
+    padding: 10px;
+  }
+
+  .produk-card {
+    border-radius: 5px;
+  }
+
+  .footer {
+    padding: 20px 0;
+  }
+
+  .navbar-toggler {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    padding: 15px 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .navbar-toggler {
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+  }
+
+  .produk-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .produk-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .produk-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container-5 {
+    padding: 15px;
+  }
+
+  .produk-item {
+    flex: 0 0 48%;
+  }
+
+  .produk-card {
+    border-radius: 10px;
+  }
+
+  .footer {
+    padding: 30px 0;
+  }
+}
